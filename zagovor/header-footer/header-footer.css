@@ -1,0 +1,56 @@
+#header {
+  padding: 50px;
+  margin: -10px;
+  background-image: url('../pictures/header.jpg');
+  background-size: cover;
+  font-size: 27px;
+}
+
+#naslov {
+	font-size: 65px;
+	margin-left: 50px;
+	color: yellow;
+	border: black;
+}
+
+#header-links {
+	float:  left;
+}
+
+#footer{
+    position: absolute;
+    bottom: 1px;
+    color: red;
+    font-size: 20px;
+}
+
+body {
+	background-color: #c6b9e4;
+}
+
+h1 {
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+a{
+	font-family: "Lucida Console", "Courier New", monospace;
+	background-color: #c6b9e4;
+	width: 100px;
+	border: 2px solid blue;
+	padding: 5px;
+	margin: 0 auto;
+	border-radius: 10px;
+
+}
+a:link { 
+	text-decoration: none; 
+}
+
+a:hover { 
+	color: yellow;
+	text-decoration: underline;
+}
+
+.active {
+    color: yellow;
+}
