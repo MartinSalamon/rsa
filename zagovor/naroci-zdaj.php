@@ -6,7 +6,16 @@
 	<title>Spuži Natakar</title>
 </head>
 <body>
-	<?php include "header-footer/header-footer.php";?>
+	<?php include "header-footer/header.php";?>
 
+	<div id="container">
+
+    <div id="content">
+
+    </div>
+
+    </div>
+
+	<?php include "header-footer/footer.php";?>
 </body>
 </html>
