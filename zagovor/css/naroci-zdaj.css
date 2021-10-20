@@ -1,0 +1,21 @@
+.narocilo {
+	border-style: solid;
+  	border-width: 2px;
+  	border-color: red;
+  	display: inline-block;
+}
+
+form {
+	height:300px;
+	font-size: 20px;
+	color: red;
+}
+
+.input-field {
+	width: 400px;
+	font-size: 15px;
+}
+
+.label {
+	padding-top: 10px;
+}
