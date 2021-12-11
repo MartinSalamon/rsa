@@ -1,0 +1,43 @@
+.opisi{
+	margin: 5px;
+}
+
+#spuzi_text{
+	width: 800px;
+	height: 270px;
+  	color: darkred;
+  	font-size: 20px;
+  	float: left;
+}
+#spuzi{
+	position: relative;
+	width: 1300px;
+  	display: inline-block;
+
+}
+
+#slika_spuzi{
+	float: left;
+	margin-top: 5px;
+}
+
+#patrik{
+	position: relative;
+	width: 1300px;
+  	display: inline-block;
+}
+
+#patrik_text{
+	width: 800px;
+	height: 270px;
+  	color: darkred;
+  	font-size: 20px;
+  	float: left;
+}
+
+
+#slika_patrik{
+	float: left;
+	margin-top: 5px;
+
+}

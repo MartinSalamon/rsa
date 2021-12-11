@@ -3,7 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="header-footer/header-footer.css" />
-	<link rel="stylesheet" type="text/css" href="css/naroci-zdaj.css" />
+	<style type="text/css">
+		<?php
+			include 'css/naroci-zdaj.css'
+		?>
+	</style>
+	
 	<title>Spuži Natakar</title>
 </head>
 <body>
@@ -13,10 +18,10 @@
 	    <div id="content">
 	    	<form class = "narocilo" id = "narocilo" method="post">
 	    		<label for="email" class = "label">Vaš elektronski naslov</label><br>
-	  			<input type="email" id="email" name="email" class = "input-field"><br>
+	  			<input type="email" id="email" name="email" class = " input-field"><br>
 	  			<label for="email" class = "label">Naročilo</label><br>
-	  			<textarea rows="3" class = "input-field" placeholder="vnesite narocilo tukaj"></textarea><br><br>
-	  			<button type="submit" id = "oddaj-narocilo" method="post">Oddaj naročilo</button>
+	  			<textarea rows="4" class = "input-field" placeholder="vnesite narocilo tukaj"></textarea><br><br>
+	  			<button type="submit" id = "oddaj-narocilo" method="post"><b>Oddaj naročilo</b></button>
 	    	</form>
 	    </div>
     </div>

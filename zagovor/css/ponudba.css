@@ -1,0 +1,31 @@
+.content{
+	display: grid;
+  	grid-template-rows: 300px 300px;
+  	grid-template-columns: 900px 900px;
+  	grid-gap: 30px;
+  	margin: 5px;
+
+}
+
+.seznam{
+  border: 2px solid darkred;
+  font-size: 18px;
+  padding-left: 30px;
+  color: darkred;
+}
+
+img{
+	height: 280px;
+	width: auto;
+	float: right;
+	padding: 10px;
+}
+
+.float-left{
+	width: 400px;
+	float: left;
+}
+
+.text {
+	text-align: justify;
+}

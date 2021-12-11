@@ -3,6 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="header-footer/header-footer.css" />
+	<style type="text/css">
+		<?php include "css/posebna-p.css" ?>
+	</style>
 	<title>Spuži Natakar</title>
 </head>
 <body>
