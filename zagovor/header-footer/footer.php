@@ -1,3 +1,3 @@
-	<div id="footer">
-		<p>&copy; 2019 Spuži Programer</p>
-    </div>
+<footer>
+	<p id="tradeMark">&copy; 2019 Spuži Programer</p>
+</footer>

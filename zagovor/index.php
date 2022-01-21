@@ -12,7 +12,7 @@
 	<?php include "header-footer/header.php";?>
 	
 	<div id="container">
-
+		
 	    <div id="content">
 	    	<div id="spuzi">
 		    	<div id="spuzi_text" class="opisi">

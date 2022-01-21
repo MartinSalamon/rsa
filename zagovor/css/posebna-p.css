@@ -1,0 +1,99 @@
+#cards {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 16px;
+    margin-right: 16px;
+}
+
+.card {
+    color: darkred;
+    background: rgb(231, 243, 247);
+    border-radius: 2px;
+    padding: 16px 16px 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.card>*:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-btn-bar {
+    height: 44px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 16px;
+}
+
+.kupi-btn-bar {
+    height: 44px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 16px;
+}
+
+.kolicina {
+    margin-right: 90px;
+    width: 48px;
+}
+
+.btn {
+    position: absolute;
+    display: block;
+    padding: 0;
+    overflow: hidden;
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    background-color: dodgerblue;
+    color: #ecf0f1;
+    transition: background-color .3s;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: deepskyblue;
+}
+
+.btn>* {
+    position: relative;
+}
+
+.btn span {
+    display: block;
+    padding: 12px 24px;
+}
+
+.btn:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 0;
+    padding-top: 0;
+    border-radius: 100%;
+    background-color: rgba(236, 240, 241, .3);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn:active:before {
+    width: 120%;
+    padding-top: 120%;
+    transition: width .2s ease-out, padding-top .2s ease-out;
+}

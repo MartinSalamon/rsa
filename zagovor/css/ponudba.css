@@ -1,31 +1,31 @@
-.content{
-	display: grid;
-  	grid-template-rows: 300px 300px;
-  	grid-template-columns: 900px 900px;
-  	grid-gap: 30px;
-  	margin: 5px;
-
+#container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 32px;
+    margin: 16px;
 }
 
-.seznam{
-  border: 2px solid darkred;
-  font-size: 18px;
-  padding-left: 30px;
-  color: darkred;
+.seznam {
+    border: 2px solid darkred;
+    font-size: 18px;
+    color: darkred;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
 }
 
-img{
-	height: 280px;
-	width: auto;
-	float: right;
-	padding: 10px;
+.seznam>div {
+    margin: 16px 32px;
 }
 
-.float-left{
-	width: 400px;
-	float: left;
+.seznam h2 {
+    margin-top: -4px;
 }
 
-.text {
-	text-align: justify;
+.seznam img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 16px;
 }

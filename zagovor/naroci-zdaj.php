@@ -20,7 +20,7 @@
 	    		<label for="email" class = "label">Vaš elektronski naslov</label><br>
 	  			<input type="email" id="email" name="email" class = " input-field"><br>
 	  			<label for="email" class = "label">Naročilo</label><br>
-	  			<textarea rows="4" class = "input-field" placeholder="vnesite narocilo tukaj"></textarea><br><br>
+	  			<textarea rows="4" class = "input-field" placeholder="vnesite narocilo tukaj"><?php echo $_GET["text"]; ?></textarea><br><br>
 	  			<button type="submit" id = "oddaj-narocilo" method="post"><b>Oddaj naročilo</b></button>
 	    	</form>
 	    </div>
